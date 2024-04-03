@@ -18,7 +18,7 @@ const LoginPage = () => {
       return;
     }
     axios
-      .post("http://localhost:8000/auth/login", data)
+      .post("https://educase-server.vercel.app/auth/login", data)
       .then((res) => {
         console.log(res.data.exists === false);
         if (res.data.exists === false) {
