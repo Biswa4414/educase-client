@@ -1,0 +1,46 @@
+.profile-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100vh;
+  width: 300px;
+}
+
+.account-settings {
+  margin-bottom: 20px;
+}
+
+.account-settings h2 {
+  margin: 0;
+}
+
+.profile-info {
+  display: flex;
+  background-color: rgb(243, 242, 247);
+
+}
+
+.profile-pic {
+  margin-right: 20px;
+}
+
+.profile-pic img {
+  max-width: 100px;
+  border-radius: 80%;
+}
+
+.user-details {
+  flex-grow: 1;
+}
+
+.about h4 {
+  margin-top: 0;
+}
+
+.about p {
+  margin-bottom: 10px;
+  font-weight: 500;
+}

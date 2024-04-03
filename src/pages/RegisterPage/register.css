@@ -1,0 +1,91 @@
+body {
+    overflow: hidden;
+  }
+  
+  .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px; /* Adding space on the right side */
+  }
+  
+  .signup-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 130vh; /* This height might be causing the scroll */
+  }
+  
+  .signup-form h2 {
+    margin: 10px 0;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group span {
+    color: red;
+  }
+  .check span{
+    color: red;
+  }
+  
+  .submit-btn {
+    margin-top: 100px;
+    background-color: #a363e6;
+    color: rgb(1, 5, 23);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+    font-weight: bold;
+  }
+  
+  label {
+    color: #6f9ac8;
+  }
+  
+  .check {
+    margin-bottom: 15px;
+    color: #2870be;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+  
+  .check label {
+    font-weight: bold;
+  }
+  
+  .radio-options {
+    display: flex;
+    align-items: center;
+  }
+  
+  .radio-options input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .radio-options label {
+    margin-right: 15px;
+  }
+  
