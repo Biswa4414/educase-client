@@ -28,7 +28,7 @@ const RegisterPage = () => {
     }
 
     axios
-      .post("https://educase-server.vercel.app/auth/register", data)
+      .post(https://educase-server-1.onrender.com/auth/register", data)
       .then((res) => {
         if (res.data.emailExists) {
           alert("Email already exists");
